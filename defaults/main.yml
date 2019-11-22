@@ -94,8 +94,8 @@ grafana_snapshots_external_snapshot_url:  "https://snapshots-origin.raintank.io"
 grafana_snapshots_external_snapshot_name: "Publish to snapshot.raintank.io"
 
 #################################### Users ####################################
-grafana_users_allow_sign_up:        true      # disable user signup / registration
-grafana_users_allow_org_create:     true      # Allow non admin users to create organizations
+grafana_users_allow_sign_up:        false     # disable user signup / registration
+grafana_users_allow_org_create:     false     # Allow non admin users to create organizations
 grafana_users_auto_assign_org:      true      # Set to true to automatically assign new users to the default organization (id 1)
 grafana_users_auto_assign_org_role: Viewer    # Default role new users will be automatically assigned (if disabled above is set to true)
 grafana_users_verify_email_enabled: false     # Require email validation before sign up completes
