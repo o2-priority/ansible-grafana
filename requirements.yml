@@ -1,3 +1,15 @@
-- src: wunzeco.docker
-- src: wunzeco.influxdb
-- src: wunzeco.telegraf
+- src: git@github.com:o2-priority/ansible-docker.git
+  version: master
+  scm: git
+  name: o2-priority.docker
+
+- src: git@github.com:o2-priority/ansible-influxdb.git
+  version: master
+  scm: git
+  name: o2-priority.influxdb
+
+- src: git@github.com:o2-priority/ansible-telegraf.git
+  version: master
+  scm: git
+  name: o2-priority.telegraf
+
